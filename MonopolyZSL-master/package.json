@@ -1,0 +1,25 @@
+{
+  "name": "monopolyzsl",
+  "version": "1.0.0",
+  "description": "Monopoly ZSL Edition",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrJake222/MonopolyZSL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrJake222/MonopolyZSL/issues"
+  },
+  "homepage": "https://github.com/MrJake222/MonopolyZSL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "socket.io": "^2.2.0"
+  }
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Checkers</title>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo:100&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/comms.css">
+        <link rel="stylesheet" href="css/overlay.css">
+        <link rel="stylesheet" href="css/deck.css">
+
+        <script src="js/libs/jquery-3.3.1.min.js"></script>
+        <script src="js/libs/three_ver97.js"></script>
+        <script src="js/libs/OrbitControls.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+
+        <script src="js/3d/DirectionalLight.js"></script>
+        <script src="js/3d/Text.js"></script>
+
+        <script src="js/3d/field/FieldBase.js"></script>
+        <script src="js/3d/field/FieldBig.js"></script>
+        <script src="js/3d/field/FieldX.js"></script>
+        <script src="js/3d/field/FieldZ.js"></script>
+        <script src="js/3d/Board.js"></script>
+
+        <script src="js/3d/Model.js"></script>
+        <script src="js/3d/Pawn.js"></script>
+        <script src="js/3d/House.js"></script>
+        <script src="js/3d/HousePlatform.js"></script>
+
+        <script src="js/3d/Renderer.js"></script>
+        <script src="js/3d/Main3D.js"></script>
+
+        <script src="js/CardDeck.js"></script>
+        <script src="js/Overlay.js"></script>
+        <script src="js/Game.js"></script>
+
+        <script src="js/data.js"></script>
+        <script src="js/Net.js"></script>
+        <script src="js/Ui.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+
+    <body>
+        <div id="overlay">
+            <div id="overlayBankrupt">
+                <h1>You're a bankrupt</h1>
+            </div>
+
+            <div id="overlayWon">
+                <h1>You won</h1>
+            </div>
+
+            <div id="overlayCard">
+                <div class="card">   
+                    <div id="cardBackground"></div>
+                    
+                    <div id="cardContent">
+                        <header id="cardHeader">
+                            <span>Card name</span>
+                            <h1 id="cardName">Ulica Monte Cassino</h1>
+                        </header>
+
+                        <hr>
+
+                        <table>
+                            <tr id="rentRow">
+                                <td>Rent</td>
+                                <td id="rent">8</td>
+                            </tr>
+
+                            <tr>
+                                <td>With all fields</td>
+                                <td id="rentAll">16</td>
+                            </tr>
+
+                            <tr>
+                                <td>With 1 house</td>
+                                <td id="house1">40</td>
+                            </tr>
+
+                            <tr>
+                                <td>With 2 houses</td>
+                                <td id="house2">100</td>
+                            </tr>
+
+                            <tr>
+                                <td>With 3 houses</td>
+                                <td id="house3">300</td>
+                            </tr>
+
+                            <tr>
+                                <td>With 4 houses</td>
+                                <td id="house4">450</td>
+                            </tr>
+
+                            <tr id="priceRow">
+                                <td>House price</td>
+                                <td id="housePrice">100</td>
+                            </tr>
+                        </table>
+
+                        <div id="houseRow">
+                            <!-- <div class="cardHouse"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="cardInfo">
+                    <table id="fundsInfo">
+                        <tr>
+                            <td>You have</td>
+                            <td id="youhave">10000</td>
+                        </tr>
+
+                        <tr>
+                            <td>Card price</td>
+                            <td id="cardPrice">-1000</td>
+                        </tr>
+
+                        <tr>
+                            <td>Left</td>
+                            <td id="left">9000</td>
+                        </tr>
+                    </table>   
+                    
+                    <div id="buttonContainerCard">
+                        <button class="btn" id="btnBuy">Buy</button>
+                        <button class="btn" id="btnDontBuy">Don't buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="horizontalContainer">
+            <div id="root"></div>
+            <div id="cardDeck">
+                <header>Card deck</header>
+
+                <!-- <div class="cardContainer">
+                    <h1 class="cardName">Ulica Monte Cassino</h1>
+                </div> -->
+            </div>
+        </div>
+
+        <div id="ui">
+            <div id="controls">
+                <p>Monopoly ZSL Edition</p>
+                <div>
+                    <h1 class="statusString" id="balance">Balance: </h1>
+                </div>
+
+                <div id="dices">
+                    <img id="dice1" src="dice/3.jpg">
+                    <img id="dice2" src="dice/6.jpg">
+                </div>
+                
+                <div id="controlButtons">
+                    <button id="start" class="btn">Start the game</button>
+                    <button id="reset" class="btn">Reset the game</button>
+                </div>
+
+                <div id="buttonContainer">
+                    <button id="throw" class="btn">Throw the dice</button>
+                    <button id="end" class="btn">End the turn</button>
+                </div>
+            </div>
+
+            <div id="comms">
+                <!-- <span><pre>[10:45:45] [GAME] Dice rolled 6 & 4</pre></span> -->
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+#horizontalContainer {
+    display: flex;
+}
+
+#cardDeck {
+    width: 200px;
+    height: calc(100vh - 200px);
+
+    background: #39434e;
+}
+
+#cardDeck header {
+    font-size: 34px;
+    padding: 0px 6px;
+    color: white;
+}
+
+.cardContainer {
+    /* border: 2px solid black; */
+    /* margin: 8px 7px; */
+
+    background: white;
+
+    padding: 4px 3px;
+    margin: 4px 8px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+}
+
+.cardName {
+    /* width: 80%; */
+    /* height: 80%; */
+
+    background: red;
+    border: 2px solid black;
+
+    text-align: center;
+    font-size: 24px;
+}

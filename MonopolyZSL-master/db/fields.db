@@ -1,0 +1,40 @@
+{"index":19,"name":"Ulica Wolska","rent":60,"cost":200,"hasHouses":true,"houseCost":200,"color":"FF8300","_id":"19OSZIbhdTGFBwmS"}
+{"index":9,"name":"Ulica Tarnowska","rent":30,"cost":120,"hasHouses":true,"houseCost":100,"color":"6BA1B3","_id":"1W8fIyyuDrt73EtU"}
+{"index":12,"name":"Ulica Marsa","rent":30,"cost":140,"hasHouses":true,"houseCost":150,"color":"DF5286","_id":"5j4JnmCtqCdOF8Ya"}
+{"index":5,"name":"Dworzec Zachodni","rent":50,"cost":200,"hasHouses":false,"houseCost":0,"color":"000000","_id":"6p3HInTcYQu5qpBe"}
+{"index":39,"name":"Aleje Ujazdowskie","rent":100,"cost":400,"hasHouses":true,"houseCost":400,"color":"00008B","_id":"8YTvzs26YsF4CcfS"}
+{"index":20,"name":"Parking","cost":0,"hasHouses":false,"houseCost":0,"color":"F11A20","_id":"8mMDI9uWdgKZQyjr"}
+{"index":23,"name":"Ulica Slowackiego","rent":60,"cost":220,"hasHouses":true,"houseCost":250,"color":"DC5539","_id":"9OcrciD9l9pt6Whm"}
+{"index":35,"name":"Dworzec Centralny","rent":50,"cost":200,"hasHouses":false,"houseCost":0,"color":"000000","_id":"ACZHeTbpBJ6L1Jdf"}
+{"index":21,"name":"Ulica Mickiewicza","rent":60,"cost":220,"hasHouses":true,"houseCost":250,"color":"DC5539","_id":"CG7ZvfPmpnNJQbRP"}
+{"index":14,"name":"Ulica Grochowska","rent":40,"cost":160,"hasHouses":true,"houseCost":150,"color":"DF5286","_id":"CkK1YbycBwaOjqkC"}
+{"index":2,"name":"Szansa","cost":0,"hasHouses":false,"houseCost":0,"color":"F28C1F","_id":"FMiTRtL9ChhNaOm6"}
+{"index":26,"name":"Ulica Swietokrzyska","rent":70,"cost":260,"hasHouses":true,"houseCost":300,"color":"A69321","_id":"FvlPCeXqbay6RtSp"}
+{"index":27,"name":"Krakowskie Przedmiescie","rent":70,"cost":260,"hasHouses":true,"houseCost":300,"color":"A69321","_id":"IoqavrIXWiAixR9M"}
+{"index":8,"name":"Ulica Jagiellonska","rent":20,"cost":100,"hasHouses":true,"houseCost":100,"color":"6BA1B3","_id":"J8HHky1OKNR8YqEX"}
+{"index":4,"name":"Podatek gospodarczy","cost":200,"hasHouses":false,"houseCost":0,"color":"555555","_id":"LZ4BM6jSiZ2zlYVJ"}
+{"index":6,"name":"Ulica Radzyminska","rent":20,"cost":100,"hasHouses":true,"houseCost":100,"color":"6BA1B3","_id":"OUyU0tSnJvlDudiN"}
+{"index":16,"name":"Ulica Obozowa","rent":50,"cost":180,"hasHouses":true,"houseCost":200,"color":"FF8300","_id":"PXqcd2Ov7WdfUiAE"}
+{"index":15,"name":"Dworzec Gdanski","rent":50,"cost":200,"hasHouses":false,"houseCost":0,"color":"000000","_id":"RUYYWVvS5OFdB5KC"}
+{"index":30,"name":"Idz do wiezienia","cost":0,"hasHouses":false,"houseCost":0,"color":"0C6BA7","_id":"UgZ6vNlDFigH5Dod"}
+{"index":10,"name":"Wiezienie","cost":0,"hasHouses":false,"houseCost":0,"color":"F39326","_id":"VcW4WJV9iidO6o7m"}
+{"index":37,"name":"Ulica Belwederska","rent":100,"cost":350,"hasHouses":true,"houseCost":400,"color":"00008B","_id":"XJaFBUqdioj6vk9I"}
+{"index":18,"name":"Ulica Gorczewska","rent":50,"cost":180,"hasHouses":true,"houseCost":200,"color":"FF8300","_id":"YyM7FrgIfr0o3kIC"}
+{"index":1,"name":"Ulica Konopacka","rent":10,"cost":60,"hasHouses":true,"houseCost":50,"color":"964B00","_id":"ZC1K0HRZQ1SZJl4Z"}
+{"index":29,"name":"Nowy Swiat","rent":80,"cost":280,"hasHouses":true,"houseCost":300,"color":"A69321","_id":"ZHBsweaBf7JclVxw"}
+{"index":17,"name":"Szansa","cost":0,"hasHouses":false,"houseCost":0,"color":"F28C1F","_id":"aekVuGsVIjI5ESmn"}
+{"index":36,"name":"Szansa","cost":0,"hasHouses":false,"houseCost":0,"color":"F28C1F","_id":"amgJIwt6RwF3zMHL"}
+{"index":7,"name":"Szansa","cost":0,"hasHouses":false,"houseCost":0,"color":"F28C1F","_id":"ds0AtwHXcdYfGRjm"}
+{"index":31,"name":"Plac Trzech Wieszczy","rent":80,"cost":300,"hasHouses":true,"houseCost":350,"color":"3C990F","_id":"dvtMLIbtbaS8KzHh"}
+{"index":25,"name":"Dworzec Wschodni","rent":50,"cost":200,"hasHouses":false,"houseCost":0,"color":"000000","_id":"eGxyi2wEqFFSM5KB"}
+{"index":3,"name":"Ulica Stalowa","rent":10,"cost":60,"hasHouses":true,"houseCost":50,"color":"964B00","_id":"iNs66LJfVh56JFGP"}
+{"index":24,"name":"Plac Wilsona","rent":70,"cost":240,"hasHouses":true,"houseCost":250,"color":"DC5539","_id":"jHDbwptyFX9rndGh"}
+{"index":38,"name":"Podatek","cost":200,"hasHouses":false,"houseCost":0,"color":"CCCC29","_id":"lSE0iKc6Y3QNuDDw"}
+{"index":34,"name":"Aleje Jerozolimskie","rent":90,"cost":320,"hasHouses":true,"houseCost":350,"color":"3C990F","_id":"obZASdMDsmXEgcX6"}
+{"index":0,"name":"Start","cost":0,"hasHouses":false,"houseCost":0,"color":"EC1C1F","_id":"oluukZsuvrVudpfO"}
+{"index":32,"name":"Ulica Marszalkowska","rent":80,"cost":300,"hasHouses":true,"houseCost":350,"color":"3C990F","_id":"qG8aedN5CwJcmFyO"}
+{"index":13,"name":"Basen","cost":150,"hasHouses":false,"houseCost":0,"color":"5CB5C0","_id":"sKqGwkAFZY268L2I"}
+{"index":22,"name":"Szansa","cost":0,"hasHouses":false,"houseCost":0,"color":"F28C1F","_id":"sfsVNkY2LVCYZ9ND"}
+{"index":33,"name":"Szansa","cost":0,"hasHouses":false,"houseCost":0,"color":"F28C1F","_id":"vwUsVqVU3VSxchln"}
+{"index":11,"name":"Ulica Plowiecka","rent":30,"cost":140,"hasHouses":true,"houseCost":150,"color":"DF5286","_id":"wotC2IafONMis1vU"}
+{"index":28,"name":"Silownia","cost":150,"hasHouses":false,"houseCost":0,"color":"5CB5C0","_id":"zqUU7YujJ4EQ3Fmb"}

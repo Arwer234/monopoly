@@ -1,0 +1,36 @@
+#comms {
+    width: 360px;
+    /* height: 190px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    font-family: 'Exo', sans-serif;
+
+    /* border: 2px solid #4f5f71; */
+    overflow: hidden;
+}
+
+span:last-child {
+    background: #384350;
+}
+
+#comms span {
+    width: 100%;
+    display: block;
+    font-size: 13px;
+    line-height: 36px;
+
+    background: #282f38;
+
+    margin: 3px 0;
+    border-radius: 8px;
+    padding: 4px;
+
+    box-sizing: border-box;
+}
+
+#comms span pre {
+    display: none;
+}
